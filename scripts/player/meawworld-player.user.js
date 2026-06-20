@@ -6,17 +6,18 @@
 // @author       Meaw
 // @match        https://www.torrentdd.com/chat.php
 // @match        https://www.torrentdd.net/chat.php
-// @grant        none
-// @require      https://raw.githubusercontent.com/YOUR_USERNAME/meawworld/main/scripts/shared/meawworld-core.user.js
-// @require      https://raw.githubusercontent.com/YOUR_USERNAME/meawworld/main/scripts/shared/meawworld-ui.user.js
+// @grant        GM_addStyle
+// @grant        GM_xmlhttpRequest
+// @grant        GM_getValue
+// @grant        GM_setValue
+// @require      https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2
+// @require      https://raw.githubusercontent.com/meawtopup/meawworld/main/scripts/shared/meawworld-core.user.js
+// @require      https://raw.githubusercontent.com/meawtopup/meawworld/main/scripts/shared/meawworld-ui.user.js
 // ==/UserScript==
-// meawworld-player.user.js
+// sctipts/player/meawworld-player.user.js
 
 (function() {
     'use strict';
-    
-    // Player script just loads Core + UI
-    // All logic is in shared scripts
-    
     console.log('🐱 MeawWorld Player Ready');
+    // Core + UI จะโหลดอัตโนมัติจาก @require
 })();
