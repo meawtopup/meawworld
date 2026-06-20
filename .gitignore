@@ -1,0 +1,51 @@
+# ==========================================
+# 🔒 PRIVATE FILES - DO NOT UPLOAD
+# ==========================================
+
+# Local folder (all private files)
+local/
+
+# Host scripts (PRIVATE)
+scripts/host/meawworld-host.user.js
+scripts/host/host-*.js
+
+# Secret files
+*.secret
+*.key
+*-credentials.txt
+*-credentials.json
+*.env
+*.env.local
+
+# Configuration files with secrets
+host-config.json
+host-keys.json
+supabase-credentials.txt
+
+# ==========================================
+# DEVELOPMENT FILES
+# ==========================================
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Supabase local
+supabase/.temp/
+supabase/.branches/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.bak
