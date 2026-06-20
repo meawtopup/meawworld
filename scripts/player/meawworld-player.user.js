@@ -11,8 +11,8 @@
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @require      https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2
-// @require      https://raw.githubusercontent.com/meawtopup/meawworld/main/scripts/shared/meawworld-core.user.js
-// @require      https://raw.githubusercontent.com/meawtopup/meawworld/main/scripts/shared/meawworld-ui.user.js
+// @require      https://raw.githubusercontent.com/meawtopup/meawworld/master/scripts/shared/meawworld-core.user.js
+// @require      https://raw.githubusercontent.com/meawtopup/meawworld/master/scripts/shared/meawworld-ui.user.js
 // ==/UserScript==
 // sctipts/player/meawworld-player.user.js
 
